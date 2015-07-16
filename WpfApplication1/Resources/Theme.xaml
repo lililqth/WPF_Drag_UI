@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="Theme_Foreground" Color="Black"/>
+    <SolidColorBrush x:Key="Theme_Background" Color="#FFCBCB2F"/>
+    <SolidColorBrush x:Key="Theme_TabsBackground" Color="#FFC4C6CB" />
+    <SolidColorBrush x:Key="Theme_TabNoActiveBackground" Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}" />
+    <SolidColorBrush x:Key="Theme_NetworkNoActiveBackground" Color="White" />
+    <SolidColorBrush x:Key="Theme_NetworkActiveBackground" Color="#FF537FAA" />
+</ResourceDictionary>
